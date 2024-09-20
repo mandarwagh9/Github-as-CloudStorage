@@ -1,7 +1,3 @@
-Here’s the updated README tailored to the "GitHub-as-Cloudstorage" concept:
-
----
-
 # GitHub-as-CloudStorage
 
 This project leverages GitHub as a cloud storage solution, allowing users to upload files directly to a GitHub repository via a sleek web interface. By using GitHub’s API, this project makes it easy to manage files within a repository without ever touching a command line.
@@ -75,7 +71,3 @@ Here’s how the project is organized:
 
 ## License
 This project is licensed under the MIT License. For more information, see the [LICENSE](LICENSE) file.
-
----
-
-This README highlights the core functionality and purpose of using GitHub as a cloud storage solution while explaining how to securely upload files to a GitHub repository via the web interface.
