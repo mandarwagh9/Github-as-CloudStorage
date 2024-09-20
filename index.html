@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Storage</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Cloud Storage</h1>
+
+        <!-- Upload Form -->
+        <form id="uploadForm">
+            <input type="file" id="fileInput" required>
+            <input type="text" id="path" placeholder="Optional: File Path">
+            <button type="submit">Upload</button>
+        </form>
+
+        <!-- Status message and loading spinner -->
+        <div id="uploadStatus" class="hidden">
+            <div id="loadingSpinner" class="spinner hidden"></div>
+            <div id="statusMessage" class="hidden"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
